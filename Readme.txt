@@ -1,6 +1,6 @@
-Электронная библиотка.
+РЃР»РµРєС‚СЂРѕРЅРЅР°В¤ Р±РёР±Р»РёРѕС‚РєР°.
 
-/database/ - дамп базы
-/layout/ - верстка
-/library/ - сайт yii2
-/nbproject/ - проект netbeans
+/database/ - РґР°РјРї Р±Р°Р·С‹
+/layout/ - РІРµСЂСЃС‚РєР°
+/library/ - СЃР°Р№С‚ yii2
+/nbproject/ - РїСЂРѕРµРєС‚ netbeans
