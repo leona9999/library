@@ -1,0 +1,17 @@
+Options All -Indexes
+Options +FollowSymlinks
+IndexIgnore */*
+
+<FilesMatch "(.htaccess|.htpasswd|.bowerrc|.gitignore|.json|.lock)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+RewriteEngine on
+
+# server
+RewriteRule ^(.+)?$ /web/$1
+
+# local
+# RewriteRule ^(.+)?$ /7winds/library/web/$1
+

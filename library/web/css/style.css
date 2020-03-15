@@ -1,0 +1,163 @@
+/*
+    Library styles
+    Leonid, (c) 2015
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+/* Actions */
+
+.action {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+.action a {
+    font: 1.3em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: #33a427;
+}
+
+.book-action {
+    clear: left;
+    text-align: right;
+}
+
+.book-action a {
+    padding-left: 10px;
+}
+
+.book-create, .book-update {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Categories */
+
+.categories {
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category-name {
+    font: 1.3em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Genres */
+
+.genres {
+    margin-left: 2px;
+}
+
+.genre {
+    list-style: inside circle;
+}
+
+.genre a {
+    font: 1em/normal Verdana, Arial, Helvetica, sans-serif;
+}
+
+.genre a.selected {
+    color: #fbbc03;
+}
+
+.genre a:hover {
+    color: #777;
+}
+
+/*Books*/
+
+.books {
+    margin-bottom: 10px;
+}
+
+li.book:last-child {
+    border-bottom: none;
+}
+
+.book {
+    border-bottom: 10px dotted #eee;
+    margin-bottom: 20px;
+}
+
+.cover {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.name {
+    font: 1.5em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.author {
+    color: #777;
+}
+
+.publishers {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.year {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.isbn {
+    margin-bottom: 10px;
+    font-size: 0.9em;    
+}
+
+.annotation {
+    text-align: justify;
+}
+
+.annotation span.caption {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.annotation span.description {
+    font: 1em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.detailed {
+    clear: left;
+    text-align: right;
+}
+
+.detailed  a {
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+}
+
+.footer-content {
+    height: 50px;
+}
+
+.copyright {
+    font: 1em/normal "Courer New";
+    color: #fff;
+    vertical-align: -1em;
+}
+
+
+
+
+
+
+

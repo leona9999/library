@@ -1,0 +1,27 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "authors": [
+    "Leon <return_to_castle@mainl.ru>"
+  ],
+  "description": "library application layout",
+  "main": "index.html",
+  "moduleType": [
+    "yui"
+  ],
+  "keywords": [
+    "library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "HTML5-Reset": "~2.1.3"
+  }
+}
